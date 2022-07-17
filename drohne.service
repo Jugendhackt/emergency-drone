@@ -1,0 +1,9 @@
+[Unit]
+Description=Emergency Drone
+
+[Service]
+Type=simple
+ExecStart=python3 /home/pi/emergency-drone/server.py
+
+[Install]
+WantedBy=multi-user.target
